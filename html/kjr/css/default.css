@@ -208,7 +208,6 @@ select:focus {
   color: #fff;
   text-align: left;
   position: relative
-  
 }
 
 .hd_pops_footer:after {
@@ -2140,4 +2139,51 @@ textarea.required {
   font-size: 2em;
   text-decoration: none;
   text-align: center
+}
+
+/* 커스터마이징 */
+
+
+#ft .notice,
+#ft #visit {
+  position: absolute;
+  height: 0;
+  width: 0;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#ft_copy,
+#ft_company h2,
+#ft_link a:last-child {
+  display: none;
+}
+
+#ft_wr .ft_cnt {
+  width: auto;
+  float: none;
+  padding: 0 20px;
+}
+
+.ft_cnt {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.ft_cnt a {
+  padding-right: 2rem;
+}
+
+.ft_cnt a:nth-child(3) {
+  color: yellow !important;
+}
+#ft_company .ft_info br {
+  display: none;
+}
+#ft #ft_company .ft_info br:nth-of-type(3) {
+  display: block !important;
 }
