@@ -216,7 +216,7 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
 
 #bo_v header {background:#fff;border:1px solid #dde7e9;border-bottom:0;border-radius:3px 3px 0 0}
 #bo_v_title {font-size:1.6em;padding:20px 20px 10px}
-#bo_v_title .bo_v_tit {display:block;font-size:2em;margin:5px 0 0;word-break:break-all}
+#bo_v_title .bo_v_tit {display:block;font-size:20px;margin:5px 0 0;word-break:break-all}
 #bo_v_title .bo_v_cate {display:inline-block;line-height:23px;font-size:0.6em;background:#e2eaf6;color:#3a8afd;padding:0 10px;border-radius:3px;vertical-align:middle}
 
 #bo_v_info {position:relative;padding:0 20px 20px;background:#fff;border:1px solid #dde7e9;border-bottom:1px solid #f1f1f1;color:#555;border-top:0}

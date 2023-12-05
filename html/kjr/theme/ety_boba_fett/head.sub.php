@@ -125,7 +125,13 @@ if(!defined('G5_IS_ADMIN'))
 <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Lora:wght@400;600;700&family=Noto+Sans+KR:wght@200;300;400;600;900&display=swap" rel="stylesheet">
 
 </head>
-<body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
+
+<body  
+class="
+    <?php echo $bo_table; ?> 
+    <?php echo $co_id; ?>
+    <?php if(defined('_INDEX_')) echo 'mainpage'; else echo 'subpage' ; ?>">
+
 <?php
 if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력해준다.
     $sr_admin_msg = '';

@@ -1,11 +1,11 @@
 
 <!-------------------------- 네비게이션 -------------------------->
-<div class="container-fluid top-line fixed-header">
+<!-- <div class="container-fluid top-line fixed-header">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div id="tnb_index_left">
-					<!-- social -->
+				
 					<div class="sns_icon">
 					<a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
 					</div>
@@ -35,20 +35,23 @@
 						<?php } ?>
 					</ul>
 				</div>
-			</div><!-- /col -->
-		</div><!-- /row -->
-	</div><!-- /container -->
+			</div>
+		</div>
+	</div> -->
 </div>
 
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-white bg-white fixed-top">
+<nav class="navbar navbar-expand-lg fixed-top" id="kim-gnb">
   <div class="container">
-	<a class="navbar-brand" href="<?php echo G5_URL?>"><img src="<?php echo G5_THEME_URL?>/img/logo.png" class="logo"></a>
+	<a class="navbar-brand" href="<?php echo G5_URL?>">
+	<!-- <img src="http://www.jawsfood.co.kr/images/common/logo1.png" class="logo"> -->
+	<span class="sr-only">죠스떡볶이</span>
+</a>
 	<button class="navbar-toggler navbar-dark navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 	  <span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarResponsive" data-hover="dropdown" data-animations="fadeIn fadeIn fadeInUp fadeInRight">
-	  <ul class="navbar-nav ml-auto">
+	  <ul class="navbar-nav mx-auto">
 		<?php
 		$sql = " select *
 					from {$g5['menu_table']}

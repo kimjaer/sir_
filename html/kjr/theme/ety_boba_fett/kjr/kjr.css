@@ -1,4 +1,127 @@
-body{
-  font-family: 'East Sea Dokdo', sans-serif;
-  font-size: 30px;
-  }
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+}
+
+#bo_v_tit {
+  font-size: 20px !important;
+}
+
+.mainpage>.container,
+.store_search .container {
+  width: auto !important;
+  max-width: none !important;
+  padding: 0;
+}
+
+
+nav.navbar {
+  border-bottom: 1px solid #a2a2a2 !important;
+
+}
+
+
+.container {
+  padding: 0;
+}
+
+.carousel-indicators li {
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 20px;
+  height: 20px;
+  /* margin-right: 3px;
+	margin-left: 3px; */
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: white;
+  opacity: 1;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-radius: 50%;
+  transition: opacity .6s ease;
+}
+
+
+.carousel-indicators .active {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  border: 2px solid #000000;
+  background-color: transparent;
+}
+
+.ety-main {
+  margin: 0 !important;
+}
+
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  color: #000000 !important;
+  height: 30px !important;
+  width: 30px !important;
+  border: 1px solid #666 !important;
+  border-radius: 50%;
+}
+
+.navbar-brand .logo {
+  max-width: 134px !important;
+  width: 33vw;
+}
+
+.btns {
+  justify-content: center;
+  bottom: 24px;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000000;
+
+}
+
+.btns>* {
+  position: unset;
+}
+
+#kim-gnb .navbar-brand {
+  display: block;
+  max-width: 134px !important;
+  width: 30%;
+}
+
+#kim-gnb .navbar-brand::after {
+  content: "";
+  display: block;
+  height: 0;
+  padding-top: 27%;
+  background-image: url(http://www.jawsfood.co.kr/images/common/logo1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.hdblackmode #kim-gnb .navbar-brand::after {
+  background-image: url(http://www.jawsfood.co.kr/images/common/logo2.png);
+}
+.hdblackmode #kim-gnb {
+  background-color: white;
+}
+.hdBlackmode .navbar {
+  background-color: white;
+}
+
+.hdBlackmode .navbar .nav-link {
+  color: black;
+}
+.hdBlackmodeMouse .navbar .nav-link {
+  color: black;
+}
+.hdBlackmodeMouse .navbar .navbar-brand::after {
+  background-image: url(http://www.jawsfood.com/images/common/logo2.png);
+}

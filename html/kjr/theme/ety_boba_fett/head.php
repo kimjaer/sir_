@@ -63,7 +63,7 @@ if(defined('_INDEX_')) {
 }
 </style>
 <div class="ety-main"></div>
-
+<div class="container">
 
 
 <!-------------------------- 게시판 상단 배경 수정하는 곳 -------------------------->
