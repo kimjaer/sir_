@@ -112,16 +112,10 @@ nav.navbar {
 .hdblackmode #kim-gnb {
   background-color: white;
 }
-.hdBlackmode .navbar {
+.hdblackmode .navbar {
   background-color: white;
 }
 
-.hdBlackmode .navbar .nav-link {
+.hdblackmode .navbar .nav-link {
   color: black;
-}
-.hdBlackmodeMouse .navbar .nav-link {
-  color: black;
-}
-.hdBlackmodeMouse .navbar .navbar-brand::after {
-  background-image: url(http://www.jawsfood.com/images/common/logo2.png);
 }

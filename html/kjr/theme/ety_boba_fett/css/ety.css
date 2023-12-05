@@ -51,7 +51,7 @@
 
 	.fixed-top {
 		position: fixed;
-		top: 34px;
+
 		right: 0;
 		left: 0;
 		z-index: 1030;
