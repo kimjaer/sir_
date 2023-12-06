@@ -19,28 +19,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 <?php 
-/**************************************************************************
 
-GNUBOARD 5.4.22 / 5.5.x
-
-테마메뉴얼주소 입니다. 아래 주소에 설치 및 셋팅법이 포함되어 있습니다.
-http://ety.kr/board/free_theme_manual
-
-오류내용은 질문게시판을 이용해주세요 (오픈카톡이나 유선상 문의를 받지 않습니다.)
-http://ety.kr/board/qa
-
-[라이선스]
-자주 하는 질문이 있어서 문서내 포함시켰습니다.
-
-1. 배포, 재배포는 에티테마만 가능하므로 사용만 하시고 다른쪽에 배포나 재배포 하지 말아주세요.
-(라이선스 위반을 하시게 되면 그에 따른 책임이 따르게 됩니다.)
-
-2. 유상 작업이 있을때 마다 다운로드 받으셔서 작업하셔도 됩니다.
-
-3. 유상 작업에 대한 책임은 돈을 받는 제작자에게 있으며 에티테마와는 무관합니다.
-
-
-**************************************************************************/ 
 ?>
 
 
@@ -129,64 +108,9 @@ http://ety.kr/board/qa
 	</div><!-- /row -->
 
 
-	<div class="d-none d-lg-block d-xl-block margin-bottom-20"></div>
+	<?php echo latest('boba_info','main_boba_info',8,100);?>
 
-	<div class="row">
-		<div class="col-lg-3 col-md-3 col-sm-12 col-6 p-r-5">
-			<div class="box">							
-				<div class="icon">
-					<div class="info">
-						<span class="material-icons-outlined">travel_explore</span>
-						<p class="ks4 f15 text-center">
-							보바펫 소개
-						</p>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-		<div class="col-lg-3 col-md-3 col-sm-12 col-6 p-l-5">
-			<div class="box">							
-				<div class="icon">
-					<div class="info">
-						<span class="material-icons-outlined">movie</span>
-						<p class="ks4 f15 text-center">
-							보바펫 시즌정보 안내
-						</p>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-		<div class="col-lg-3 col-md-3 col-sm-12 col-6 p-r-5">
-			<div class="box">							
-				<div class="icon">
-					<div class="info">
-						<span class="material-icons-outlined">live_tv</span>
-						<p class="ks4 f15 text-center">
-							보바펫 예고편 바로가기
-						</p>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-		<div class="col-lg-3 col-md-3 col-sm-12 col-6 p-l-5">
-			<div class="box">							
-				<div class="icon">
-					
-					<div class="info">
-						<span class="material-icons-outlined">collections</span>
-						<p class="ks4 f15 text-center">
-							갤러리
-						</p>
-					</div>
-					
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-	</div><!-- /row -->
+	
 
 </div><!-- /container -->
 
